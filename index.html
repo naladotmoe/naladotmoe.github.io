@@ -1,68 +1,28 @@
-<!doctype html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Nala | Personal site</title>
     <style>
         :root {
-             --accent: #C0E7FE;
-        }
-        * {
-            padding: 0;
-            margin: 0;
-        }
-        body {
-            background-color: #101017;
-            font-family: monospace;
-            color: white;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-
-            padding: 0 20px;
-            box-sizing: border-box;
-            height: 100vh;
-        }
-        img {
-            width: 150px;
-            margin: 20px auto
-        }
-        .nala {
-            color: var(--accent);
-            font-weight: bold;
-            text-align: center;
-            margin-bottom: 10px;
-        }
-        a {
-            color: var(--accent);
-            font-weight: bold;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-        .white-text {
-            color: white;
-        }
-        div.container {
+            background-color: black;
             height: 100%;
-            display: flex;
-            flex-direction: column;
-            /*align-items: center;*/
-            justify-content: center;
+            -moz-user-focus: ignore;
+        }
+
+        video {
+            position: absolute;
+            inset: 0;
+            margin: auto;
+            max-width: 100%;
+            max-height: 100%;
+            user-select: none;
+            -moz-user-focus: normal;
+        }
+
+        video:focus {
+            outline-style: none;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <p class="nala">nala <span class="white-text">(</span>naladotmoe<span class="white-text">)</span></p>
-        <p>24y男  •  anime and visual novel fan, also love japanese music</p>
-        <p style="margin-top: 5px">twitter & discord: <a href="https://x.com/naladotmoe">@naladotmoe</a></p>
-        <img src="setsuna.jpg" alt="setsuna_singing">
-    </div>
-
+<video autoplay controls src="./01%20Kuuki%20Rikigaku%20Shoujo%20to%20Shounen%20no%20Uta%20-Orgel%20Ver.-.flac" style="height: 40px; width: 66%;"></video>
 </body>
 </html>
